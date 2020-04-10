@@ -1,0 +1,2 @@
+Collect each assignment from Assignment folder and keep the solutions in your respective folders
+
