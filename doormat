@@ -1,0 +1,16 @@
+
+def design_mat(m,n):
+    width=n
+    for i in range (0, int(m/2)):
+        str="*|*" * ((2*i)+1)
+        print(str.center(width,'_'))
+        print("hellopython".center(width,'_'))  
+    i=int(m/2)
+    while i>0:
+     str="*|*"*((2*i)-1)
+    print(str2.center(width,'_'))
+    i=i-1
+    return
+m=7
+n=21
+design_mat(m,n)
