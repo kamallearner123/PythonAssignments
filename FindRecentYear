@@ -1,0 +1,9 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Hello world")
+import re
+data = '''
+See discussions,1254 2021 56 2016
+'''
+
+print(sorted(list(filter(lambda x: x!= 0, list(map(lambda x: int(x) if int(x)>2000 and  int(x)<2023 else 0, re.findall(r"\b\d{4}\b", data)))))))
